@@ -26,7 +26,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 43,
+    "uniqCompNum": 44,
     "versionPublish": "4.6.6"
   },
   "pages": {
@@ -833,157 +833,127 @@
           }
         },
         {
-          "_styles": {
-            ".galleryItem h4:hover": {
-              "color": "@primaryColor"
-            },
-            ".mbr-gallery-filter ul li.active": {
-              "color": "@primaryColor"
-            },
-            ".mbr-gallery-filter ul li:hover": {
-              "color": "@primaryColor"
-            },
-            ".mbr-gallery-filter ul li:before": {
-              "background": "@primaryColor"
-            },
-            ".min-toggle:hover, .max-toggle:hover": {
-              "background-color": "@primaryColor"
-            },
-            ".shop-title": {
-              "font-family": "@titleFont"
-            },
-            ".categories-titles .mbr-gallery-filter ul li": {
-              "font-family": "@titleFont"
-            },
-            ".max-input": {
-              "font-family": "@titleFont"
-            },
-            ".min-input": {
-              "font-family": "@titleFont"
-            },
-            ".item-title": {
-              "font-family": "@titleFont"
-            },
-            ".card-description": {
-              "font-family": "@textFont"
-            },
-            ".shop-item-price": {
-              "font-family": "@subtitleFont"
-            },
-            "H3": {
-              "text-align": "center",
-              "color": "#000000",
-              "font-size": "46px"
-            }
-          },
           "_params": {
             "showTitle": true,
-            "showSidebar": true,
-            "showSortButtons": false,
-            "showBestSellers": false,
-            "priceRange": false,
-            "filter": false,
-            "showStars": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "showSubtitle": true,
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/pricing-table/pricing-table-bg.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
             "bgColor": "#ffffff",
-            "filterBgColor": false,
-            "fontHoverColor": "@primaryColor",
-            "mainTitle": "@titleFont",
-            "mainSubTitle": "@subtitleFont",
-            "mainText": "@textFont",
-            "images": [
-              {
-                "tags": "metall",
-                "bestSeller": false,
-                "itemTitle": "«Мценский литейный завод»",
-                "itemSubtitle": "",
-                "itemDescription": "ОАО «Мценский литейный завод» основан как филиал советского автогиганта «ЗиЛ», завод уже более  30 лет работает  на  рынке  комплектующих  изделий  для автомобилестроения.&nbsp;",
-                "itemPriceTitle": "From: ",
-                "itemPrice": "",
-                "onsale": "SALE 50% OFF",
-                "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com/\" class=\"btn btn-primary btn-primary-outline\"></a>",
-                "image": "@PROJECT_PATH@/assets/images/team2-2-500x500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/team2-2-500x500-500x500.jpg",
-                "starsImg": "@PROJECT_PATH@/assets/images/2.png",
-                "stars": "@PROJECT_PATH@/assets/images/2.png",
-                "caption": "Type caption here",
-                "onSale": false,
-                "active": false
-              },
-              {
-                "tags": "metall",
-                "bestSeller": false,
-                "itemTitle": "«ОАО Элеватормельмаш»",
-                "itemSubtitle": "",
-                "itemDescription": "Завод «ОАО Элеватормельмаш» — одно из ведущих предприятий России по выпуску высокопроизводительного мельничного, элеваторного и комбикормового оборудования\n<div><br></div>",
-                "itemPriceTitle": "From: ",
-                "itemPrice": "",
-                "onsale": "SALE 50% OFF",
-                "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com/\" class=\"btn btn-primary btn-primary-outline\"></a>",
-                "image": "@PROJECT_PATH@/assets/images/team4-2-500x500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/team4-2-500x500-500x500.jpg",
-                "starsImg": "@PROJECT_PATH@/assets/images/2.png",
-                "stars": "@PROJECT_PATH@/assets/images/2.png",
-                "caption": "Type caption here",
-                "onSale": false,
-                "active": false
-              },
-              {
-                "tags": "metall",
-                "bestSeller": false,
-                "itemTitle": "ЗАО «Реал Инвест»",
-                "itemSubtitle": "",
-                "itemDescription": "Группа компаний «Реал Инвест» - это современная мощная структура, объединяющая организации и предприятия различных видов деятельности, обладающих высококвалифицированным персоналом и использующих новейшие технологические разработки и достижения.",
-                "itemPriceTitle": "From: ",
-                "itemPrice": "",
-                "onsale": "SALE 50% OFF",
-                "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com/\" class=\"btn btn-primary btn-primary-outline\"></a>",
-                "image": "@PROJECT_PATH@/assets/images/team1-1-500x500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/team1-1-500x500-500x500.jpg",
-                "starsImg": "@PROJECT_PATH@/assets/images/2.png",
-                "stars": "@PROJECT_PATH@/assets/images/2.png",
-                "caption": "Type caption here",
-                "onSale": false,
-                "active": false
-              },
-              {
-                "tags": "metall",
-                "bestSeller": false,
-                "itemTitle": "АО «Корпорация «СПУ-ЦКБ ТМ»",
-                "itemSubtitle": "",
-                "itemDescription": "АО «Корпорация «СПУ-ЦКБ ТМ» выполняет научно-исследовательские, опытно-конструкторские и технологические разработки по созданию различных командных пунктов и пунктов управления, наземного оборудования для доставки, установки, обслуживанию, заправки и предстартовой подготовки ракет на пусковых объектах и по другим направлениям НИОКР.",
-                "itemPriceTitle": "From: ",
-                "itemPrice": "",
-                "onsale": "SALE 50% OFF",
-                "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com/\" class=\"btn btn-primary btn-primary-outline\"></a>",
-                "image": "@PROJECT_PATH@/assets/images/team3-2-500x500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/team3-2-500x500-500x500.jpg",
-                "starsImg": "@PROJECT_PATH@/assets/images/2.png",
-                "stars": "@PROJECT_PATH@/assets/images/2.png",
-                "caption": "Type caption here",
-                "onSale": false,
-                "active": true
-              }
-            ]
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
-          "articleLayout": false,
           "title": "Наши Партнеры",
-          "filter_by_pu": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Price: low to high</a>",
-          "filter_by_pd": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Price: high to&nbsp;</a>",
-          "filter_by_d": "<a data-app-btn=\"true\" class=\"btn btn-primary\">Default sorting</a>",
-          "price_range": "<a class=\"btn btn-primary filterPriceRange\">Filter</a>",
-          "price_range_reset": "<a class=\"btn btn-secondary showAll\">Show all</a>",
-          "closeModal": "<a class=\"btn btn-primary modalButton\" mbr-on-click=\"_onCloseModalClick\">Close</a>",
-          "allItem": "All",
-          "sidebar1": "Best Sellers",
-          "sidebar2": "Filter by price",
-          "sidebar3": "Product Categories",
+          "subtitle": "<br>Компании, с которыми нас связывают многолетние дружеские и профессиональные отношения, с которыми приятно строить новые планы и достигать поставленные цели в растениеводстве. Это настоящие профессионалы своего дела, которым присущи целеустремлённость, результативность, глубокий анализ и взвешенность решений.",
+          "person1": "«Реал Инвест»",
+          "person2": "«Мценский литейный завод»",
+          "person3": "«СПУ-ЦКБ ТМ»",
+          "person4": "«ОАО Элеватормельмаш»",
+          "subtitle1": "",
+          "subtitle2": "",
+          "subtitle3": "",
+          "subtitle4": "",
+          "caption1": "<b>Группа компаний «Реал Инвест» - это современная мощная структура, объединяющая организации и предприятия различных видов деятельности, обладающих высококвалифицированным персоналом и использующих новейшие технологические разработки и достижения.</b>",
+          "caption2": "<b>ОАО «Мценский литейный завод» основан как филиал советского автогиганта «ЗиЛ», завод уже более 30 лет работает на рынке комплектующих изделий для автомобилестроения. </b>",
+          "caption3": "<b>АО «Корпорация «СПУ-ЦКБ ТМ» выполняет научно-исследовательские, опытно-конструкторские и технологические разработки по созданию различных командных пунктов и пунктов управления, наземного оборудования.</b><br>",
+          "caption4": "<b>Завод «ОАО Элеватормельмаш» — одно из ведущих предприятий России по выпуску высокопроизводительного мельничного, элеваторного и комбикормового оборудования</b>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/team1-2-500x500.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/team2-3-500x500.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/team3-3-500x500.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/team4-3-500x500.jpg",
+              "class": "features-img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "alias": "colorm/components",
           "_tags": [
             "Темы"
           ],
-          "_name": "shop1",
-          "_anchor": "shop1-u"
+          "_name": "team2",
+          "_anchor": "team2-17",
+          "_styles": {
+            ".title3": {
+              "color": "#000000"
+            },
+            ".text3": {
+              "color": "#000000"
+            },
+            ".text2": {
+              "color": "#e74c3c"
+            },
+            ".title2": {
+              "color": "#000000"
+            },
+            ".text1": {
+              "color": "#e74c3c"
+            },
+            ".title1": {
+              "color": "#000000"
+            },
+            ".text4": {
+              "color": "#e74c3c"
+            },
+            ".title4": {
+              "color": "#000000"
+            },
+            ".text1 B": {
+              "color": "#000000"
+            },
+            ".text2 B": {
+              "color": "#000000"
+            },
+            ".text4 B": {
+              "color": "#000000"
+            }
+          }
         },
         {
           "_styles": {
